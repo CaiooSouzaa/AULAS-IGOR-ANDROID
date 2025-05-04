@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    app:title="Olá, Caio"
+    android:background="#9400d3"
+    app:titleTextColor="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageButton
+        android:id="@+id/botaoOlho"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:paddingBottom="-30dp"
+        android:background="@drawable/olho"
+        />
+
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:drawableBottom="@drawable/pergunta"
+        android:paddingBottom="-30dp"
+        android:background="@android:color/transparent"
+        />
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:drawableBottom="@drawable/ponto_do_envelope"
+        android:paddingBottom="-30dp"
+        android:background="@android:color/transparent"
+
+        />
+
+</androidx.appcompat.widget.Toolbar>

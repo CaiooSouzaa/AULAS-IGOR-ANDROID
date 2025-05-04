@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:text="Conta"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/valorConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="R$100,00" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/botaoPix"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#dcdcdc"
+            android:drawableBottom="@drawable/baseline_pix_24"
+            android:paddingBottom="8dp"
+            android:text="." />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="14dp"
+            android:backgroundTint="#dcdcdc"
+            android:drawableBottom="@drawable/cartao"
+            android:paddingBottom="8dp"
+            android:text="+" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="14dp"
+            android:backgroundTint="#dcdcdc"
+            android:drawableBottom="@drawable/seta_cima"
+            android:paddingBottom="8dp"
+            android:text="." />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="14dp"
+            android:backgroundTint="#dcdcdc"
+            android:drawableBottom="@drawable/seta_baixo"
+            android:paddingBottom="8dp"
+            android:text="." />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#dcdcdc"
+        android:drawableLeft="@drawable/cartao"
+        android:text="Meus Cartões"
+        android:textColor="@color/black" />
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#dcdcdc"
+        android:text="Conheça Nubank Vida: um seguro simples e que cabe no bolso"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:text="Cartão de Crédito"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:text="Fatura atual" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:text="R$2.568,56"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dp"
+        android:text="Limite disponivel de R$32.450,00" />
+
+</LinearLayout>

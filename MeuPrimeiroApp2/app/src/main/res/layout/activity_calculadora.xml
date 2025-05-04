@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bob2"
+    tools:context=".Calculadora">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minha primeira calculadora"/>
+
+
+    <EditText
+        android:id="@+id/valor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o primeiro valor"
+        android:inputType="number"
+
+        />
+
+    <EditText
+        android:id="@+id/valor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite segundo valor"
+        android:inputType="number"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/BotaoSomar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            />
+
+        <Button
+            android:id="@+id/BotaoSubtrair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            />
+
+        <Button
+            android:id="@+id/BotaoMultiplicar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            />
+
+        <Button
+            android:id="@+id/BotaoDivisao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

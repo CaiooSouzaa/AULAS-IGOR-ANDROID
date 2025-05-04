@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:src="@mipmap/logo_ite"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:cornerRadius="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Faça seu login em nossa plataforma"
+        android:textColor="#006400"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagem"
+        android:layout_marginTop="150dp"
+        android:hint="Digite o seu login"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagem"
+        android:layout_marginTop="250dp"
+        android:hint="Digite a sua senha"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imagem"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="400dp"
+        android:text="Login"
+        android:backgroundTint="#006400"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/botaoLimpar"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imagem"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="400dp"
+        android:text="Limpar"
+        android:backgroundTint="#ff0000"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/botaoLimpar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Crie sua conta agora mesmo"
+        android:textColor="#006400"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imagem"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="520dp"
+        android:text="Criar conta"
+        android:backgroundTint="#006400"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+
+        />
+
+</RelativeLayout>
