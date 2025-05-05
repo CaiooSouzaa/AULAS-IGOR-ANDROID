@@ -9,10 +9,42 @@
     android:orientation="vertical"
     tools:context=".Tela4">
 
+    <include layout="@layout/toolbar" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OLÁ MUNDO 4" />
+        android:layout_marginTop="20dp"
+        android:text="CADASTRO INSTITUIÇÃO"
+        android:textSize="25sp"
+       android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/nomeInstituicao"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nome instituição"
+        android:padding="12dp"
+        android:textColorHint="#000000"
+        android:background="@drawable/bloco_texto"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/cnpjinstituicap"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="CNPJ"
+        android:padding="12dp"
+        android:textColorHint="#000000"
+        android:background="@drawable/bloco_texto"
+        android:layout_gravity="center"
+        />
+
+
 
 
 </LinearLayout>
