@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tela3">
+    android:orientation="vertical"
+    tools:context=".Tela6">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
         <include layout="@layout/toolbar" />
 
@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="CADASTRO"
+            android:text="EDITAR ALUNO"
             android:textSize="25sp" />
 
         <EditText
@@ -28,23 +28,21 @@
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
             android:hint="Nome"
             android:imeOptions="actionNext"
-            android:focusable="true"
-            android:inputType="text"
-            android:focusableInTouchMode="true"
-            />
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/cpfAluno"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:hint="CPF"
             android:focusable="true"
-            android:inputType="number"
             android:focusableInTouchMode="true"
-            />
+            android:hint="CPF"
+            android:inputType="number" />
 
         <EditText
             android:id="@+id/instituicaoAluno"
@@ -85,7 +83,8 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Cadastrar" />
+            android:text="Atualizar" />
 
     </LinearLayout>
+
 </ScrollView>

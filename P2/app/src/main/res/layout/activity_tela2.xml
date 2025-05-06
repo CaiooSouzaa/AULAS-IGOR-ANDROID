@@ -30,7 +30,7 @@
             android:id="@+id/botaoInstituicoes"
             android:layout_width="128dp"
             android:layout_height="128dp"
-            android:layout_marginLeft="109dp"
+            android:layout_marginLeft="70dp"
             android:onClick="Tela4"
             android:text="CADASTRO INSTITUIÇÃO"
             app:cornerRadius="30dp" />
