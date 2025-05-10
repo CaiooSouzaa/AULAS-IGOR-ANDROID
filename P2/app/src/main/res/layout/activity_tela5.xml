@@ -9,9 +9,14 @@
     android:orientation="vertical"
     tools:context=".Tela5">
 
-    <TextView
+    <include layout="@layout/toolbar" />
+
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OLÁ MUNDO 5" />
+        android:id="@+id/listaAlunos"
+        />
+
+
 
 </LinearLayout>

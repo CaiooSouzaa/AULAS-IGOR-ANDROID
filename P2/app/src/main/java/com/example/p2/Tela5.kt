@@ -1,6 +1,9 @@
 package com.example.p2
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
+import android.widget.ListView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +19,12 @@ class Tela5 : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val usuario : ListView = findViewById(R.id.listaAlunos)
+        usuario.setOnItemClickListener{parent, view, position, id ->
+            var intent = Intent(this, Tela6::class.java)
+            startActivity(intent)
+        }
+
     }
+
 }

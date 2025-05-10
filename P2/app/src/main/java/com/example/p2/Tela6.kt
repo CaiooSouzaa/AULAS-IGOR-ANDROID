@@ -1,6 +1,9 @@
 package com.example.p2
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +19,10 @@ class Tela6 : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+    }
+    fun tela5(view: View){
+        var intent = Intent(this, Tela5::class.java)
+        Toast.makeText(this, "Cadastro atualizado", Toast.LENGTH_LONG).show()
+        startActivity(intent)
     }
 }

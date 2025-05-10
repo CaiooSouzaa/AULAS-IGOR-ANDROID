@@ -83,7 +83,9 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Atualizar" />
+            android:text="Atualizar"
+            android:onClick="tela5"
+            />
 
     </LinearLayout>
 
