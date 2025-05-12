@@ -51,37 +51,58 @@
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:hint="Instituição" />
+            android:hint="Instituição"
+            android:focusable="true"
+            android:inputType="text"
+            android:focusableInTouchMode="true"
+            />
 
         <EditText
             android:id="@+id/alturaAluno"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:hint="Altura" />
+            android:hint="Altura"
+            android:focusable="true"
+            android:inputType="number"
+            android:focusableInTouchMode="true"
+            />
 
         <EditText
             android:id="@+id/pesoAluno"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:hint="Peso" />
+            android:hint="Peso"
+            android:focusable="true"
+            android:inputType="number"
+            android:focusableInTouchMode="true"
+            />
 
         <EditText
             android:id="@+id/telefoneAluno"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:hint="Telefone" />
+            android:hint="Telefone"
+            android:focusable="true"
+            android:inputType="phone"
+            android:focusableInTouchMode="true"
+            />
 
         <EditText
             android:id="@+id/idadeAluno"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:hint="Idade" />
+            android:hint="Idade"
+            android:focusable="true"
+            android:inputType="number"
+            android:focusableInTouchMode="true"
+            />
 
         <Button
+            android:id="@+id/cadastrarAluno"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
