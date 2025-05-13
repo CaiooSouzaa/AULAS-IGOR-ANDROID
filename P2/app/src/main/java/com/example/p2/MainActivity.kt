@@ -2,6 +2,7 @@ package com.example.p2
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
 import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -27,4 +28,6 @@ class MainActivity : AppCompatActivity() {
         var intent = Intent(this, Tela2::class.java)
         startActivity(intent)
     }
+
+
 }
