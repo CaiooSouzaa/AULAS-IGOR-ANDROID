@@ -3,7 +3,9 @@ package com.example.p2
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
+import android.view.MenuItem
 import android.view.View
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -27,6 +29,16 @@ class Tela2 : AppCompatActivity() {
         return true
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item?.itemId){
+            R.id.btn1 -> {
+                val tela3 = Intent(this, Tela7::class.java)
+                startActivity(tela3)
+            }
+        }
+        return true
+    }
+
     fun Tela3(view: View){
         var tela3 = Intent(this, Tela3::class.java)
         startActivity(tela3)
@@ -37,8 +49,9 @@ class Tela2 : AppCompatActivity() {
         startActivity(tela4)
     }
 
-    fun Tela5(view: View){
-        var tela5 = Intent(this, Tela5::class.java)
-        startActivity(tela5)
+    fun Tela6(view: View){
+        var tela4 = Intent(this, Tela6::class.java)
+        startActivity(tela4)
     }
+
 }

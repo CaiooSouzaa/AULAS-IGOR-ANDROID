@@ -55,8 +55,9 @@
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:layout_marginLeft="70dp"
-            android:onClick="Tela5"
-            android:text="VISUALIZAR ALUNOS CADASTRADOS"
+            android:layout_marginTop="15dp"
+            android:onClick="Tela6"
+            android:text="CADASTRO BECAS"
             app:cornerRadius="30dp" />
 
     </LinearLayout>

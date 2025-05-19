@@ -20,8 +20,8 @@ class Tela6 : AppCompatActivity() {
             insets
         }
     }
-    fun tela5(view: View){
-        var intent = Intent(this, Tela5::class.java)
+    fun tela2(view: View){
+        var intent = Intent(this, Tela2::class.java)
         Toast.makeText(this, "Cadastro atualizado", Toast.LENGTH_LONG).show()
         startActivity(intent)
     }
