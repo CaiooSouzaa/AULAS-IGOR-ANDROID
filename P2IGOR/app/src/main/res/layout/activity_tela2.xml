@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tela2">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        >
+
+        <Button
+            android:id="@+id/botaoAlunos"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="10dp"
+            android:onClick="Tela3"
+            android:text="CADASTRO ALUNOS"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/botaoInstituicoes"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="70dp"
+            android:onClick="Tela4"
+            android:text="CADASTRO INSTITUIÇÃO"
+            app:cornerRadius="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+        <Button
+            android:id="@+id/botaoVisuAlunos"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="19dp"
+            android:onClick="Tela5"
+            android:text="VISUALIZAR ALUNOS CADASTRADOS"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/configuracoes"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:onClick="Tela6"
+            android:text="CADASTRO BECAS"
+            app:cornerRadius="30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
