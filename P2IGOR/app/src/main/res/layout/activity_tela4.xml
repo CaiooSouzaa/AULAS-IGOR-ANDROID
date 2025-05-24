@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tela4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CADASTRO INSTITUIÇÃO"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/nomeInstituicao"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:hint="Nome instituição"
+        android:padding="12dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/cnpjinstituicap"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="CNPJ"
+        android:padding="12dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/cepinstituicap"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="CEP"
+        android:padding="12dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/enderecojinstituicap"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="ENDEREÇO"
+        android:padding="12dp"
+        android:textColorHint="#000000" />
+    <EditText
+        android:id="@+id/telefoneinstituicap"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="TELEFONE"
+        android:padding="12dp"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Cadastrar"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
