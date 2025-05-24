@@ -65,4 +65,6 @@
             android:onClick="tela2"
             android:text="CADASTRAR" />
 
+    </LinearLayout>
+
 </LinearLayout>

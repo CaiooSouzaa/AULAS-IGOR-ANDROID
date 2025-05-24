@@ -22,15 +22,13 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:src="@mipmap/fotoperfil" />
+        android:layout_gravity="center" />
 
     <LinearLayout
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:background="@drawable/bloco_texto">
+        android:layout_margin="20dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -45,8 +43,7 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:background="@drawable/bloco_texto">
+        android:layout_margin="20dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -61,8 +58,7 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:background="@drawable/bloco_texto">
+        android:layout_margin="20dp">
 
 
         <TextView
@@ -78,8 +74,7 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:background="@drawable/bloco_texto">
+        android:layout_margin="20dp">
 
 
         <TextView
@@ -96,7 +91,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="SAIR"
-        android:id="@+id/sair"
         android:onClick="MainActivity"
         />
 

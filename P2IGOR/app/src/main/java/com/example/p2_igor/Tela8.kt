@@ -1,6 +1,8 @@
 package com.example.p2_igor
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +18,10 @@ class Tela8 : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+    }
+
+    fun Tela2(view: View){
+        var intent = Intent(this, Tela2::class.java)
+        startActivity(intent)
     }
 }

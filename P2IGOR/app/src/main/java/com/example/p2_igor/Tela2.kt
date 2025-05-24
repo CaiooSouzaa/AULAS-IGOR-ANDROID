@@ -46,4 +46,9 @@ class Tela2 : AppCompatActivity() {
         startActivity(tela4)
     }
 
+    fun Tela8(view: View){
+        var tela8 = Intent(this, Tela8::class.java)
+        startActivity(tela8)
+    }
+
 }
