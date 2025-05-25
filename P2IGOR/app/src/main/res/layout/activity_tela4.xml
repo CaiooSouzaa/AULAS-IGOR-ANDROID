@@ -9,6 +9,13 @@
     android:orientation="vertical"
     tools:context=".Tela4">
 
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:hint="Nome instituição"
+        android:hint="NOME INSTITUIÇÃO"
         android:padding="12dp"
         android:textColorHint="#000000" />
 
@@ -76,5 +83,6 @@
         android:onClick="tela2"
         android:layout_gravity="center"
         />
+    </LinearLayout>
 
 </LinearLayout>
