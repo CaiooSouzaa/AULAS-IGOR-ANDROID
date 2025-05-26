@@ -14,6 +14,7 @@
         android:layout_height="180sp"
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
+        android:src="@drawable/logo"
         />
 
     <EditText
@@ -21,9 +22,11 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
-        android:hint="Login" />
+        android:hint="Login"
+        android:inputType="text"
+        />
 
     <EditText
         android:id="@+id/senha"
@@ -36,13 +39,12 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/Tela2"
+        android:id="@+id/logarConta"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:text="Entrar"
-        android:onClick="Tela2"
         />
 
 </LinearLayout>
