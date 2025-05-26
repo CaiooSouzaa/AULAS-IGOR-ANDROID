@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -12,23 +11,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:text="Perfil"
-        android:textStyle="bold"
-        />
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center" />
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/perfil" />
 
     <LinearLayout
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp">
+        android:layout_margin="20dp"
+        android:background="@drawable/bloco_escrever"
+        >
 
         <TextView
             android:layout_width="wrap_content"
@@ -43,7 +44,9 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp">
+        android:layout_margin="20dp"
+        android:background="@drawable/bloco_escrever"
+        >
 
         <TextView
             android:layout_width="wrap_content"
@@ -58,7 +61,9 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp">
+        android:layout_margin="20dp"
+        android:background="@drawable/bloco_escrever"
+        >
 
 
         <TextView
@@ -74,7 +79,8 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp">
+        android:layout_margin="20dp"
+        android:background="@drawable/bloco_escrever">
 
 
         <TextView
@@ -90,8 +96,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="SAIR"
         android:onClick="MainActivity"
-        />
+        android:text="SAIR" />
 
 </LinearLayout>

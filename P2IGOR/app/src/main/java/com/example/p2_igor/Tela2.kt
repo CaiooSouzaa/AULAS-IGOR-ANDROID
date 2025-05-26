@@ -20,6 +20,8 @@ class Tela2 : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        setSupportActionBar(findViewById(R.id.toolbar))
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main_menu, menu)
@@ -31,6 +33,10 @@ class Tela2 : AppCompatActivity() {
             R.id.btn1 -> {
                 val tela3 = Intent(this, Tela7::class.java)
                 startActivity(tela3)
+            }
+            R.id.btn2 -> {
+                val tela13 = Intent(this, Tela13::class.java)
+                startActivity(tela13)
             }
         }
         return true
@@ -49,6 +55,11 @@ class Tela2 : AppCompatActivity() {
     fun Tela5(view: View){
         var tela5 = Intent(this, Tela5::class.java)
         startActivity(tela5)
+    }
+
+    fun Tela8(view: View){
+        var intent = Intent(this, Tela8::class.java)
+        startActivity(intent)
     }
 
 }

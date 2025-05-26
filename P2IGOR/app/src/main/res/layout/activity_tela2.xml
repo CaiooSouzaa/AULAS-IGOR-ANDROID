@@ -52,7 +52,7 @@
             app:cornerRadius="30dp" />
 
         <Button
-            android:id="@+id/configuracoes"
+            android:id="@+id/cadastarBecas"
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:layout_marginLeft="70dp"
