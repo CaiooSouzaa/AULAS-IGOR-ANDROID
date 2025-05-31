@@ -18,13 +18,14 @@
         android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imagemCarregada"
+        android:id="@+id/carregarImagem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="50dp" />
 
     <Button
+        android:id="@+id/carregarImagemAluno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -33,7 +34,9 @@
         android:onClick="CarregarImagem"
         android:text="CARREGAR IMAGEM"
         app:cornerRadius="5dp"
-        app:icon="@drawable/baseline_add_circle_outline_24" />
+
+        />
+
 
     <LinearLayout
         android:layout_width="350dp"

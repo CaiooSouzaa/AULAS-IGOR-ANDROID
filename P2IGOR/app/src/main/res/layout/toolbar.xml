@@ -4,7 +4,7 @@
     android:id="@+id/toolbar"
     android:layout_width="match_parent"
     android:layout_height="70dp"
-    android:background="#C3C3C3"
+    android:background="#852016"
     app:title=" "
     app:subtitle=" "
     >

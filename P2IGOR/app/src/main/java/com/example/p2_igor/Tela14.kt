@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import android.content.Intent
+import com.bumptech.glide.Glide
+
 
 class Tela14 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,7 +31,7 @@ class Tela14 : AppCompatActivity() {
 
     fun CarregarImagem(view: View) {
         val url = "https://dwglogo.com/wp-content/uploads/2016/04/emirates_arabic_emblem.png"
-        var imagemCarregada = findViewById<ImageView>(R.id.imagemCarregada)
+        var imagemCarregada = findViewById<ImageView>(R.id.carregarImagem)
         Glide.with(this).load(url).into(imagemCarregada)
 
     }
