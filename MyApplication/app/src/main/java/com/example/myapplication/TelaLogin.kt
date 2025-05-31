@@ -10,8 +10,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class TelaLogin : AppCompatActivity() {
-    lateinit var login: EditText
-    lateinit var senha: EditText
+    lateinit var login : EditText
+    lateinit var senha : EditText
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -20,20 +20,20 @@ class TelaLogin : AppCompatActivity() {
         login = findViewById(R.id.login)
         senha = findViewById(R.id.senha)
 
-        val botaoLogar: Button = findViewById(R.id.botaoLogar)
+        val botaoLogar : Button = findViewById(R.id.botaoLogar)
         botaoLogar.setOnClickListener {
             var user = login.text.toString()
             var pass = senha.text.toString()
 
-            if (verifica(user, pass)) {
+            if (verifica(user, pass)){
                 Toast.makeText(this, "Bem vindo admin", Toast.LENGTH_SHORT).show()
-            } else {
+            }else{
                 Toast.makeText(this, "Credencial não autorizada", Toast.LENGTH_SHORT).show()
             }
         }
 
-        val botaoLimpar: Button = findViewById(R.id.botaoLimpar)
-        botaoLimpar.setOnClickListener {
+        val botaoLimpar : Button = findViewById(R.id.botaoLimpar)
+        botaoLimpar.setOnClickListener{
             login.text.clear()
             senha.text.clear()
             Toast.makeText(this, "Limpo com sucesso", Toast.LENGTH_SHORT).show()
@@ -46,8 +46,7 @@ class TelaLogin : AppCompatActivity() {
             insets
         }
     }
-
-    private fun verifica(user: String, pass: String): Boolean {
+    private fun verifica(user: String, pass: String): Boolean{
         return user == "admin" && pass == "1234"
     }
 }

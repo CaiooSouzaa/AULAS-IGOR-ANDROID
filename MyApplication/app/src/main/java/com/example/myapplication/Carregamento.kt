@@ -15,10 +15,10 @@ class Carregamento : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_carregamento)
     }
-    fun CarregarImagem(view: View){
-        val url = "https://dwglogo.com/wp-content/uploads/2016/04/emirates_arabic_emblem.png"
-        var imagemCarregada = findViewById<ImageView>(R.id.imagemCarregada)
-        Glide.with(this).load(url).into(imagemCarregada)
-
+    fun CarregarImagem(view: View)
+    {
+        var url = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Emirates_logo.svg/1934px-Emirates_logo.svg.png"
+        var emirates = findViewById<ImageView>(R.id.emirates)
+        Glide.with(this).load(url).into(emirates)
     }
 }

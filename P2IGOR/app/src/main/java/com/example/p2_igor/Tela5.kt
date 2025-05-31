@@ -28,7 +28,7 @@ class Tela5 : AppCompatActivity() {
         lista.setOnItemClickListener{ parent, view, position, id ->
             val nomeSelecionado = listaAlunos[position]
 
-            val intent = Intent(this, Tela6::class.java)
+            val intent = Intent(this, Tela14::class.java)
             intent.putExtra("nome", nomeSelecionado)
             startActivity(intent)
         }

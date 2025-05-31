@@ -19,17 +19,18 @@
 
     <ImageView
         android:id="@+id/carregarImagem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_gravity="center"
-        android:layout_margin="50dp" />
+        android:layout_margin="50dp"
+        android:scaleType="centerCrop" />
+
 
     <Button
         android:id="@+id/carregarImagemAluno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
         android:backgroundTint="#FF0000"
         android:onClick="CarregarImagem"
         android:text="CARREGAR IMAGEM"
