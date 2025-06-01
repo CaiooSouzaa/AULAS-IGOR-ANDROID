@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="cardBackgroundSuccess">#D4EDDA</color>
+    <color name="cardBackgroundError">#F8D7DA</color>
+    <color name="cardBackgroundWarning">#FFF3CD</color>
+    <color name="cardBackgroundDefault">#FFFFFF</color>
 </resources>

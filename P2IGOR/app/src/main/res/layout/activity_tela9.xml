@@ -23,11 +23,11 @@
             android:src="@mipmap/chapeu" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="BECAS P"
-            android:textSize="30dp"
+            android:text="BECAS P: 500 UNIDADES"
+            android:textSize="17dp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -50,8 +50,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="BECAS M"
-            android:textSize="30dp"
+            android:text="BECAS M: 750 UNIDADES"
+            android:textSize="17dp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -74,8 +74,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="BECAS G"
-            android:textSize="30dp"
+            android:text="BECAS G: 350 UNIDADES"
+            android:textSize="17dp"
             android:textStyle="bold" />
 
     </LinearLayout>

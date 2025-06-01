@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="14dp"
-            android:text="User" />
+            android:text="Usuario: Maria Julia" />
 
     </LinearLayout>
 
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="14dp"
-            android:text="Email" />
+            android:text="Email: mariaju@gmail.com" />
 
     </LinearLayout>
 
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="14dp"
-            android:text="Telefone" />
+            android:text="Telefone: (14)99864-8932" />
 
     </LinearLayout>
 
@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="14dp"
-            android:text="Cargo" />
+            android:text="Cargo: Gerente" />
 
     </LinearLayout>
 

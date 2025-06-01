@@ -20,7 +20,7 @@ class Tela8 : AppCompatActivity() {
         }
     }
 
-    fun Tela2(view: View){
+    fun tela2(view: View){
         var intent = Intent(this, Tela2::class.java)
         startActivity(intent)
     }
