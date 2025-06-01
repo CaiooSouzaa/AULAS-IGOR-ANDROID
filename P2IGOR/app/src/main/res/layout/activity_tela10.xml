@@ -63,7 +63,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:onClick="tela2"
-            android:text="CADASTRAR" />
+            android:text="CADASTRAR"
+            android:backgroundTint="#852016"
+            />
 
     </LinearLayout>
 

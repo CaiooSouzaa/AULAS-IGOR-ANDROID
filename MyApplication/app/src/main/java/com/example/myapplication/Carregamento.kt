@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
@@ -19,6 +20,7 @@ class Carregamento : AppCompatActivity() {
     {
         var url = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Emirates_logo.svg/1934px-Emirates_logo.svg.png"
         var emirates = findViewById<ImageView>(R.id.emirates)
+        Log.d("GlideDebug", "Carregando imagem: $url")
         Glide.with(this).load(url).into(emirates)
     }
 }
