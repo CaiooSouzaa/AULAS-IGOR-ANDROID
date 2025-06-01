@@ -24,7 +24,7 @@ class Tela14 : AppCompatActivity() {
 
 
     fun CarregarImagem(view: View) {
-        var url = "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png"
+        var url = "https://media.istockphoto.com/id/183758172/pt/foto/retrato-feminino.jpg?s=612x612&w=0&k=20&c=f9bRMjLCZqL9zPoUTftMoKw8ST66mfTpmOIVmOwM_UY="
         val imagemCarregada = findViewById<ImageView>(R.id.carregarImagem)
         Log.d("GlideDebug", "Carregando imagem: $url")
 
