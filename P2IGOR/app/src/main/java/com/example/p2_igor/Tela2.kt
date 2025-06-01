@@ -38,6 +38,14 @@ class Tela2 : AppCompatActivity() {
                 val tela13 = Intent(this, Tela13::class.java)
                 startActivity(tela13)
             }
+            R.id.btn3 -> {
+                val tela11 = Intent(this, Tela11::class.java)
+                startActivity(tela11)
+            }
+            R.id.btn4 -> {
+                val tela12 = Intent(this, Tela12::class.java)
+                startActivity(tela12)
+            }
         }
         return true
     }
@@ -59,6 +67,11 @@ class Tela2 : AppCompatActivity() {
 
     fun Tela8(view: View){
         var intent = Intent(this, Tela8::class.java)
+        startActivity(intent)
+    }
+
+    fun Tela9(view: View){
+        var intent = Intent(this, Tela9::class.java)
         startActivity(intent)
     }
 

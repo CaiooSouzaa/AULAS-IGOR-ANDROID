@@ -9,7 +9,7 @@
     tools:context=".Tela9">
 
     <LinearLayout
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30sp"
         android:layout_marginTop="50dp"
@@ -33,7 +33,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30sp"
         android:layout_marginTop="30dp"
@@ -57,7 +57,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30sp"
         android:layout_marginTop="30dp"

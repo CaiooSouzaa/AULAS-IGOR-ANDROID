@@ -12,5 +12,16 @@
         android:title="Sobre"
         app:showAsAction="never"
         />
+    <item
+        android:id="@+id/btn3"
+        android:title="Historico aluguel"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/btn4"
+        android:title="Notificações"
+        app:showAsAction="never"
+        />
 
 </menu>

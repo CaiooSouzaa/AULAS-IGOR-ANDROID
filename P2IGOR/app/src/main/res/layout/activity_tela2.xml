@@ -65,7 +65,7 @@
         android:id="@+id/quantidadeBecas"
         android:layout_width="328dp"
         android:layout_height="78dp"
-        android:onClick="Tela8"
+        android:onClick="Tela9"
         android:text="QUATIDADE DE BECAS"
         app:cornerRadius="30dp"
         android:layout_gravity="center"
